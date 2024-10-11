@@ -27,3 +27,33 @@
     font-size: 18px;
     border: 1px solid #FF0070;
 }
+h1 {
+    font-weight:700;
+    font: size 157px;
+    line-height:0.5em;
+    text-shadow:4px 4px #FF0070;
+    color: #db00ff;
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+    color: var(--text-color-p);
+    font-size:18px;
+    font-weight:400;
+    line: height 23.4px;
+}
+
+.royal {
+    width: 491px;
+    margin-left: auto;
+    justify-content:end;
+    display: block;
+    background-color: var(--text-color-h2);
+}
+
+.royal > p {
+    color:var(--text-color-h3);
+}
