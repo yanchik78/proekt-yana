@@ -101,7 +101,10 @@
     p {
       margin: 0;
       padding: 0;
-      color: var(--text-color-p);
+      color: var(--text-color-h3);
+      background-color: var(--background-color-title);
+    }
+    {
       font-size: 18px;
       font-weight: 400;
       line-height: 23.4px; 
@@ -195,4 +198,124 @@
     .drawn-text {
       width: 491px;
       margin-left: auto;
-      justify-con
+      justify-content: ;
+    }
+
+   
+
+    
+    .title {
+      background-color: var(--color);
+      display: flex;
+      width: 491px;
+      height: 70px;
+      position: absolute;
+      left: 513px;
+      top: 563px;
+  }
+  
+  .title p {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000028;
+      margin: 0;
+  }
+    .square-top {
+      border-right: 1px solid #ff0070;
+      border-top: 1px solid #ff0070;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      top: 20px;
+      left: 976px;
+  }
+  
+  .square-bottom {
+      border-bottom: 1px solid #ff0070;
+      border-left: 1px solid #ff0070;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      top: 723px;
+      left: 20px;
+  }
+  
+
+    .title-2 {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 130%;
+      color: var(--color);
+      margin: 0;
+      padding-left: 20px;
+      width: 315px;
+      height: 47px;
+  }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 648px;
+  }
+  
+  .section-1 {
+      display: flex;
+      gap: 20px;
+    width: 1024px
+      height: 508px;
+      margin-bottom: 80px;
+    box-sizing: border-box;
+  }
+  
+  .title-name {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000028;
+      margin: 0;
+      width: 649px;
+      height: 23px;
+      background: var(--color);
+      margin-bottom: 10px;
+  }
+  
+  .text {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: #f1b2ce;
+      
+  }
+  
+  a {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      color: #f1b2ce;
+      text-shadow: 2px 2px #ff0070;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: #f1b2ce;
+  }
+  
+  a:focus {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      color: #f1b2ce;
+      border: 1px solid #f1b2ce;
+      text-decoration: none;
+  }
