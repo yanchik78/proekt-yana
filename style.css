@@ -10,20 +10,20 @@
     
   @font-face {
       font-weight: 700;
-      font-family: IBMPlexMono;
-      src: url("../fonts/IBMPlexMono-Bold.ttf");
+      font-family: IBM Plex Mono;
+      src: url("/fonts/IBMPlexMono-Bold.ttf");
   }
   @font-face {
       font-weight: 400;
-      font-family: IBMPlexMono;
-      src: url("../fonts/IBMPlexMono-Regular.ttf");
+      font-family: IBM Plex Mono;
+      src: url("/fonts/IBMPlexMono-Regular.ttf");
   }
   html {
     margin: 0;
     padding: 0;
   } 
     body {
-      font-family: IBMPlexMono;
+      font-family: IBM Plex Mono;
       font-weight: 400;
       font-size: 18px;
       
@@ -193,6 +193,7 @@
     } 
   
 
+
    
 
     
@@ -272,7 +273,7 @@
       
   }
   
-  a {
+  c {
       font-family: var(--font-family);
       font-weight: 400;
       font-size: 18px;
@@ -281,7 +282,7 @@
       text-decoration: none;
   }
   
-  a:hover {
+hover {
       font-family: var(--font-family);
       font-weight: 400;
       font-size: 18px;
@@ -290,7 +291,7 @@
       color: #f1b2ce;
   }
   
-  a:focus {
+focus {
       font-family: var(--font-family);
       font-weight: 400;
       font-size: 18px;
@@ -311,4 +312,162 @@
 
 
 
+.teri {
+  border-right: 1px solid #ff0070;
+  border-top: 1px solid #ff0070;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  left: 976px;
+}
+
+.tedi {
+  border-bottom: 1px solid #ff0070;
+  border-left: 1px solid #ff0070;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 723px;
+  left: 20px;
+}
+
+.title-2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ff0070;
+  margin: 0;
+  padding-left: 20px;
+  width: 315px;
+  height: 47px;
+}
+
+.wap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 648px;
+}
+
+.section-1 {
+  display: flex;
+  gap: 20px;
+  height: 508px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.ner {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000028;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #f1b2ce;
   
+}
+
+cer {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #f1b2ce;
+  text-shadow: 2px 2px #ff0070;
+  text-decoration: none;
+}
+
+
+hover {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #f1b2ce;
+}
+
+focus {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #f1b2ce;
+  border: 1px solid #f1b2ce;
+  text-decoration: none;
+}
+
+
+.section-2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+  height: 498px;
+  margin-bottom: 80px;
+}
+
+.wap-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 984px;
+  height: 431px;
+  padding: 0 20px;
+}
+
+.name-2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000028;
+  margin-bottom: 10px;
+}
+
+.mell {
+  height: 384px
+}
+
+.gera {
+  height: 361px;
+}
+
+.gadgets {
+  height: 431px;
+}
+.section-3 {
+  display: flex;
+  gap: 20px;
+  height: 1015px;
+  margin-bottom: 80px;
+}
+
+.wap-3 {
+  display: flex;
+  flex-direction: column;
+  width: 649px;
+  gap: 20px;
+}
+
+
+.deru {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000028;
+  margin: 0;
+}
+
