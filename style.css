@@ -409,6 +409,27 @@ background-color: #FF0070;
 position: absolute;
 }
 
+.gallery {
+  width: 984px;
+  height: 1091px;
+  
+}
+.gallery-image {
+  display: grid;
+  grid-template-areas: 
+  'img1 img1 img2'
+  'img3 img4 img2'
+  'img3 img5 img5';
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
 .img1 {
  height: 260px; ;
  width: 649px; ;
@@ -438,4 +459,33 @@ height: 428px; ;
 width: 649px; ;
 }
 
+.footer {
+  height: 768px;
+  position: relative;
+}
 
+.h1-footer {
+  position: absolute;
+  left: 277px;
+}
+
+.w-1024 {
+  width: 1024px;
+}
+
+.w-315 {
+  width: 315px;
+}
+
+.section {
+  box-sizing: border-box;
+
+}
+
+.rectangle {
+  background: #ff0070;
+}
+
+.f-400 {
+  font-weight: 400;
+}
