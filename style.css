@@ -1,31 +1,27 @@
 :root {
-    --background-color: #000028;
-    --background-color-title: #FF0070;
-    --text-color-h1: #DB00FF;
-    --text-color-h2: #FF0070;
-    --text-color-h3: #000028;
-    --text-color-p: #F1B2CE;
-    --width-mobile: 355px;
-  }
-    
+  --background-color: #000028;
+  --background-color-title: #FF0070;
+  --text-color-h1: #DB00FF;
+  --text-color-h2: #FF0070;
+  --text-color-h3: #000028;
+  --text-color-p: #F1B2CE;
+  --width-mobile: 355px;
+}
 
-  
-  @font-face {
-      font-weight: 700;
-      font-family: IBM Plex Mono;
-      src: url("/fonts/IBMPlexMono-Bold.ttf");
-  }
-  @font-face {
-      font-weight: 400;
-      font-family: IBM Plex Mono;
-      src: url("/fonts/IBMPlexMono-Regular.ttf");
-  }
-  html {
-    margin: 0;
-    padding: 0;
-  } 
-    body {
-      font-family: IBM Plex Mono;
+@font-face {
+  font-weight: 700;
+  font-family: IBM Plex Mono;
+  src: url("/fonts/IBMPlexMono-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: IBM Plex Mono;
+   src: url("/fonts/IBMPlexMono-Regular.ttf");
+}
+
+body {
+  font-family: IBM Plex Mono;
       font-weight: 400;
       font-size: 18px;
       
@@ -71,36 +67,31 @@
       position: relative;
     }
   
-    
-    ul, li {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
-      font-weight: 700;
-      font-size: 157px;
-      line-height: 0.5em;
-      text-shadow: 4px 4px #FF0070;
-      color: var(--text-color-h1);
-      margin: 0;
-      padding: 0;
-    }
-    h2 {
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--text-color-h2);
-      margin: 0;
-      padding: 0;
-    }
-    h3 {
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--text-color-h3);
-      background-color: var(--background-color-title);
-      margin: 0;
-    }
-    
+h1 {
+  font-weight: 700;
+  font-size: 157px;
+  line-height: 0.5em;
+  text-shadow: 4px 4px #FF0070;
+  color: var(--text-color-h1);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color-h2);
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color-h3);
+  background-color: var(--background-color-title);
+  margin: 0;
+}
     
     {
       font-size: 18px;
@@ -238,60 +229,60 @@
   }
   
 
-    .title-2 {
-      font-family: var(--font-family);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 130%;
-      color: #ff0070;
-      width: 315px;
-      height: 47px;
-      padding-left: 20px;
+.title-2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ff0070;
+  width: 315px;
+  height: 47px;
+  padding-left: 20px;
 
-  }
+}
 
-    .good {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 648px;
-  }
+.good {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+  width: 648px;
+}
   
-  .secar {
-      display: flex;
-      gap: 20px;
-      width: 1024px;
-      height: 508px;
-      margin-bottom: 80px;
-      box-sizing: border-box;
-  }
+.secar {
+  display: flex;
+  gap: 20px;
+  width: 1024px;
+  height: 508px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
   
-  .text {
-      font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 130%;
-      color: #f1b2ce;
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #f1b2ce;
       
-  }
+}
   
-  c {
-      font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 18px;
-      color: #f1b2ce;
-      text-shadow: 2px 2px #ff0070;
-      text-decoration: none;
-  }
+c {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #f1b2ce;
+  text-shadow: 2px 2px #ff0070;
+  text-decoration: none;
+}
   
 hover {
-      font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 18px;
-      text-decoration: underline;
-      text-decoration-skip-ink: none;
-      color: #f1b2ce;
-  }
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #f1b2ce;
+}
   
 focus {
       font-family: var(--font-family);
@@ -311,8 +302,6 @@ focus {
     color: #000028;
     background: var(--background-color-title);
   }
-
-
 
 .teri {
   border-right: 1px solid #ff0070;
